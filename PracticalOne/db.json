@@ -1,0 +1,141 @@
+{
+  "usersData": [
+    {
+      "id": 2,
+      "username": "ajay",
+      "password": "ajay@123",
+      "email": "ajay@gmail.com",
+      "phone": "9599417416",
+      "gender": "Male",
+      "age": "23",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "pincode": "201102",
+      "country": "India"
+    },
+    {
+      "username": "hola",
+      "password": "hola123456",
+      "email": "hola@gmail.com",
+      "phone": "10000010101",
+      "gender": "male",
+      "age": "24",
+      "city": "Ghazipur",
+      "state": "Utter pradesh",
+      "pincode": "201110",
+      "country": "India",
+      "id": 3
+    },
+    {
+      "username": "Sagar",
+      "password": "123456",
+      "email": "sagar@gmail.com",
+      "phone": "9641020498",
+      "gender": "male",
+      "age": "34`",
+      "city": "Kanpur",
+      "state": "UP",
+      "pincode": "201105",
+      "country": "India",
+      "id": 4
+    },
+    {
+      "username": "bharat",
+      "password": "Bharat123",
+      "email": "bharat123@gmail.com",
+      "phone": "9910204020",
+      "gender": "Male",
+      "age": "21",
+      "city": "Faridabad",
+      "state": "Delhi",
+      "pincode": "11023401",
+      "country": "India",
+      "id": 5
+    },
+    {
+      "username": "Ram",
+      "password": "123456",
+      "email": "ram12@gmail.com",
+      "phone": "9699102012",
+      "gender": "Male",
+      "age": "27",
+      "city": "Delhi",
+      "state": "UP",
+      "pincode": "2112001",
+      "country": "India",
+      "id": 8
+    },
+    {
+      "username": "emule",
+      "password": "em1234",
+      "email": "emule@gmail.com",
+      "phone": "81888233242",
+      "gender": "Male",
+      "age": "43",
+      "city": "NY",
+      "state": "UP",
+      "pincode": "112342",
+      "country": "India",
+      "id": 9
+    },
+    {
+      "username": "Divyansh",
+      "password": "121212",
+      "email": "divyansh@gmail.com",
+      "phone": "1000000001",
+      "gender": "Male",
+      "age": "25",
+      "city": "Lucknow",
+      "state": "UP",
+      "pincode": "100211",
+      "country": "India",
+      "id": 10
+    }
+  ],
+  "usersCredentails": [
+    {
+      "userN": "Ram",
+      "passwd": "123456",
+      "id": 1
+    },
+    {
+      "userN": "Ajay",
+      "passwd": "1234",
+      "id": 1
+    },
+    {
+      "userN": "Divyansh",
+      "passwd": "121212",
+      "id": 2
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "T01",
+      "fromUser": "ajay123",
+      "toUser": "ajau2345",
+      "transactionAmount": "250000",
+      "transactionDate": "10/29/2022",
+      "transactionTime": "10:44 AM",
+      "transacationStatus": "Successed"
+    },
+    {
+      "transactionId": "T02",
+      "fromUser": "sagar123",
+      "toUser": "ajay2341",
+      "transactionAmount": "140000",
+      "transactionDate": "11/03/2022",
+      "transactionTime": "12:24 AM",
+      "transacationStatus": "Successed"
+    },
+    {
+      "transactionId": "T03",
+      "fromUser": "sagar432",
+      "toUser": "fuddu2341",
+      "transactionAmount": "340000",
+      "transactionDate": "11/03/2022",
+      "transactionTime": "01:24 AM",
+      "transacationStatus": "Fail"
+    }
+  ]
+}

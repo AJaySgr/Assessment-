@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapid</title>
+</head>
+<style>
+    #list-product{
+            border: 2px solid rgba(var(--f52,142,142,142),1);
+            background-color:  rgb(202, 149, 245);
+            border-radius: 1pc;
+            height: fit-content;
+            width: fit-content;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+            font-size: 24px;}
+    
+     
+         table, th, td {
+         border: 1px solid blueviolet;
+         background-color: rgb(202, 149, 245);
+         text-align: center;
+         font-size: 15px;
+         font-weight: normal;
+         box-sizing: border-box;
+         border: auto;
+         
+        }
+        h2{
+            font-size: 40px;
+            text-align: left;
+            font-family: Brush Script MT;
+            color: blueviolet;
+           
+            
+        }
+</style>
+<script>
+fetch("http://localhost:3000/transactions",{
+        method:"GET",
+        headers:{
+            'Content-Type':'application/json'
+        }
+    }).then(response=>response.json())
+        .then(response=>{
+            //console.log(response)
+            let tab =  `<tr>
+                        <th>TRANSACTION ID</th>
+                        <th>FROM USER</th>
+                        <th>TO USER</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th>
+                        <th>TIME</th>
+                        <th>STATUS</th>
+                        </tr>`;
+                            for(let p of response){
+                                tab += `<tr>
+                                    <td>${p.transactionId}</td>
+                                    <td>${p.fromUser}</td>
+                                    <td>${p.toUser}</td>
+                                    <td>${p.transactionAmount}</td>
+                                    <td>${p.transactionDate}</td>
+                                    <td>${p.transactionTime}</td>
+                                    <td>${p.transacationStatus}</td>
+                                    
+                                
+                        <tr>`
+                            }
+                            document.getElementById("trasaction-table").innerHTML=tab;
+        });
+</script>
+<body>
+    <div id="list-product">
+        <h2> <b>Transaction</b> are </h2>
+        <table id="trasaction-table"></table>
+    </div>
+    <a href="index.html">Home</a>
+</body>
+</html>
