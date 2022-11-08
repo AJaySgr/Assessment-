@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Ajay123",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "username": "Sagar111",
+      "password": "12345678"
+    },
+    {
+        "username": "RamJ123",
+        "password": "12345678",
+        "id": 4
+      },
+    {
+      "username": "Thakur",
+      "password": "12345678",
+      "id": 4
+    }
+  ],
+  "registerDetails": [
+    {
+      "id": 1,
+      "firstName": "Ajay",
+      "lastName": "Sagar",
+      "username": "Ajay123",
+      "email": "ajau9560@gmail.com",
+      "password": "12345678",
+      "mobilenumber": "9599417416"
+    },
+    {
+      "firstName": "Sagar",
+      "lastName": "Thakur",
+      "username": "Sagar111",
+      "email": "sagar@gmail.com",
+      "password": "123123123",
+      "mobilenumber": "1000000010",
+      "id": 2
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "Jaiswal",
+      "username": "RamJ123",
+      "email": "ramjaiswal@gmail.com",
+      "password": "00000000",
+      "mobilenumber": "9876543210",
+      "id": 3
+    },
+    {
+      "firstName": "Ram",
+      "lastName": "Thakur",
+      "username": "Thakur",
+      "email": "ramjaiswal@gmail.com",
+      "password": "12345678",
+      "mobilenumber": "8976543223",
+      "id": 4
+    }
+  ]
+}
